@@ -41,7 +41,7 @@ body {
   font-size: 12px;
   line-height: 1.4;
   font-family: Helvetica, Arial, sans-serif;
-  background: url(../images/citipix_skyline.jpg) no-repeat center center fixed;
+  background: url(../images/cat.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -62,8 +62,14 @@ body {
 }
 
 header {
-  background: rgba(0,0,0, .5);
+  /*background: rgba(0,0,0, .5);*/
   padding: 20px 0;
+   background: url(../images/3px-tile.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
 }
 
 .title {
@@ -71,7 +77,7 @@ header {
   color: #fff;
   font-size: 38px;
   font-weight: bold;
-  font-family: helvetica, arial, sans-serif;
+  font-family: Merriweather;
 }
 
 .title p {
@@ -84,54 +90,48 @@ title p {
   font-weight: normal
 }
 
-#city-type {
-  color: #6b6b6c;
-  font-size: 38px;
-  background: #fff;
-  border: 1px solid #111;
-  padding: 0px 30px;
-  display: inline-block;
-  width: 680px;
-  margin-right: 24px;
-  font-family: helvetica, arial, sans-serif;
-  height: 72px;
-  line-height: 74px;
-  vertical-align: middle;
-  box-shadow: #111 0 0 20px;
-}
-#submit-btn {
-  background: #ffe500;
-  color: #000;
-  font-size: 38px;
-  font-weight: bold;
-  text-transform: uppercase;
-  border: 1px solid #111;
-  text-align: center;
-  display: inline-block;
-  width: 250px;
-  height: 72px;
-  line-height: 74px;
-  vertical-align: middle;
-  box-shadow: #111 0 0 50px;
-  font-family: helvetica, arial, sans-serif;
-  cursor: pointer;
-}
-#submit-btn:hover {
-  background: #fff600;
+.nav {
+  width: 100%;
+  color: white;
 }
 
-.nyc {
-  background-image: url(../images/nyc.jpg)
+ul {
+  padding-right: 20px;
 }
-.sf {
-  background-image: url(../images/sf.jpg)
+
+
+li {
+  font-size: 20px;
+  display: inline-block;
+  padding-top: 10px;
+  text-align: center;
 }
-.la {
-  background-image: url(../images/la.jpg)
+
+.bold_li {
+  font-family: Oswald;
+  font-weight: 700;
 }
-.austin {
-  background-image: url(../images/austin.jpg)
+
+.light_li {
+  font-family: Source Sans Pro;
+  font-weight: 400;
 }
-.sydney {
-  background-image: url(../images/sydney.jpg)
+
+.clear {
+  overflow: auto;
+}
+
+a {
+  text-decoration: none;
+  font-family: Source Sans Pro;
+  font-weight: 400;
+  color: white;
+}
+
+a:hover {
+    color: #fdf731;
+}
+
+a:active {
+  background-color: #c6c6c6;
 }

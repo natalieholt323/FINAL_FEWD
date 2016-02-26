@@ -1,5 +1,9 @@
-var cities = ["NYC", "SF", "LA", "ATX", "SYD"];
 $(document).ready(function() {
-  for(i=0;i<cities.length;i++) {
-    $('#city-type').append('<option value="' + cities[i] + '">' + cities[i] + '</option>');
+function getRandomSize(min, max) {
+  return Math.round(Math.random() * (max - min) + min);
+}
+  for (var i = 0; i < 25; i++) {
+    var width = getRandomSize(200, 400);
+    var height =  getRandomSize(200, 400);
   }
+});
