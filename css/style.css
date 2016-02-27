@@ -64,7 +64,6 @@ body {
 header {
   /*background: rgba(0,0,0, .5);*/
   padding: 20px 0;
-   background: url(../images/3px-tile.png);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
