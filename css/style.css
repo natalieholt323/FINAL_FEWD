@@ -39,7 +39,6 @@
 body {
   color: #000;
   font-size: 12px;
-  line-height: 1.4;
   font-family: Helvetica, Arial, sans-serif;
   background: url(../images/cat.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -58,12 +57,10 @@ body {
 .container {
   width: 960px;
   margin: auto;
-  padding-top: 5em;
 }
 
 header {
   /*background: rgba(0,0,0, .5);*/
-  padding: 20px 0;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -72,8 +69,9 @@ header {
 }
 
 .title {
-  text-align: center;
   color: #fff;
+  padding-top: 20px;
+  padding-left: 30px;
   font-size: 38px;
   font-weight: bold;
   font-family: Merriweather;
@@ -90,6 +88,35 @@ title p {
 }
 
 .nav {
+  color: white;
+}
+
+.parent {
+  overflow: hidden;
+}
+
+.fr {
+  float: right;
+}
+
+.fl {
+  float: left;
+}
+
+.full_width {
+  width: 100%;
+
+}
+
+.h1 {
+  font-size: 30px;
+  font-family: Merriweather;
+  font-weight: 700;
+  color: #fdf731;
+  float: left;
+}
+
+.nav {
   width: 100%;
   color: white;
 }
@@ -102,8 +129,8 @@ ul {
 li {
   font-size: 20px;
   display: inline-block;
-  padding-top: 10px;
-  text-align: center;
+  float: right;
+  padding-right: 30px;
 }
 
 .bold_li {
@@ -120,6 +147,7 @@ li {
   overflow: auto;
 }
 
+
 a {
   text-decoration: none;
   font-family: Source Sans Pro;
@@ -134,3 +162,96 @@ a:hover {
 a:active {
   background-color: #c6c6c6;
 }
+
+.map {
+   background: url(../images/map1.jpg) center center no-repeat;
+   background-size: cover;
+   position: relative;
+   width: 100%;
+   height: 500px;
+}
+
+.map-catImg {
+  width: 75px;
+  height: 75px;
+}
+
+.map-positionBtm {
+    position: absolute; 
+      bottom: 10%;
+      left: 28%;
+}
+
+.map-positionTop {
+    position: absolute;
+      top: 35px;
+      right: 350px;
+}
+
+.map-positonMiddle {
+  position: absolute;
+    top: 5%;
+    left: 20%;
+}
+
+.pin1Ex {
+  border: 1px solid green;
+  width: 10%;
+}
+
+/* LAYOUT - about page
+/*******************************************/
+
+
+
+/* Center the container */
+.container {
+  width: 960px;
+  margin: auto;
+  padding-top: 5em;
+  background: rgba(0,0,0, .5);
+}
+
+.container p {
+  font-family: Merriweather;
+  font-weight: 500;
+  font-size: 25px;
+  text-align: left;
+  padding-top: 30px;
+  margin-top: 0px;
+  color: white;
+}
+
+.profile_box {
+  display:none;
+  clear: both;
+  width: 35%;
+  height: 50%;
+  background-color: white;
+  display: table;
+  margin: 0% auto;
+
+
+}
+
+h3  {
+  font-size: 25px;
+  font-family: Source Sans Pro;
+  font-weight: 700;
+  color: black;
+  padding-left: 5%;
+  text-align: left;
+  
+}
+
+.about_p {
+  width: 70%;
+  font-size: 20px;
+  font-family: Source Sans Pro;
+  font-weight: 400;
+  color: black;
+  line-height: 20px;
+  padding: 3.25%;
+
+}
+
