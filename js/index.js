@@ -1,9 +1,27 @@
-$(document).ready(function() {
-function getRandomSize(min, max) {
-  return Math.round(Math.random() * (max - min) + min);
-}
-  for (var i = 0; i < 25; i++) {
-    var width = getRandomSize(200, 400);
-    var height =  getRandomSize(200, 400);
-  }
-});
+/*
+$('.map-catImg map-positionBtm').click(function (event) {
+        event.preventDefault();
+    });
+
+    $('.readless').click(function (event) {
+        event.preventDefault();
+    });
+
+    $(".map-catImg map-positionTop").click(function(){
+        $(".hide").slideDown();
+    });
+
+    /*
+    $(".readless").click(function(){
+        $(".hide").slideUp();
+        $(".map-catImg map-positionBtm").show();
+    });
+
+    */
+
+    
+
+  
+    $(".pin2Ex").click(function(){
+        $(".profile_box").show();
+    });

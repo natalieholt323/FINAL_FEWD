@@ -188,7 +188,7 @@ a:active {
       right: 350px;
 }
 
-.map-positonMiddle {
+.map-positionMiddle {
   position: absolute;
     top: 5%;
     left: 20%;
@@ -197,6 +197,7 @@ a:active {
 .pin1Ex {
   border: 1px solid green;
   width: 10%;
+
 }
 
 /* LAYOUT - about page
@@ -223,7 +224,6 @@ a:active {
 }
 
 .profile_box {
-  display:none;
   clear: both;
   width: 35%;
   height: 50%;
@@ -255,3 +255,6 @@ h3  {
 
 }
 
+.hide {
+  display: none;
+}
