@@ -224,13 +224,13 @@ a:active {
 }
 
 .profile_box {
-  clear: both;
+  display:none;
+  position:absolute;
   width: 35%;
   height: 50%;
   background-color: white;
-  display: table;
   margin: 0% auto;
-
+  
 
 }
 

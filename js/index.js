@@ -1,27 +1,7 @@
-/*
-$('.map-catImg map-positionBtm').click(function (event) {
-        event.preventDefault();
-    });
+$("img").click(function(){
+    $(".profile_box").show();
+})
 
-    $('.readless').click(function (event) {
-        event.preventDefault();
-    });
-
-    $(".map-catImg map-positionTop").click(function(){
-        $(".hide").slideDown();
-    });
-
-    /*
-    $(".readless").click(function(){
-        $(".hide").slideUp();
-        $(".map-catImg map-positionBtm").show();
-    });
-
-    */
-
-    
-
-  
-    $(".pin2Ex").click(function(){
-        $(".profile_box").show();
-    });
+$("pin1Ex").click(function(){
+    $(".profile_box").show();
+})
