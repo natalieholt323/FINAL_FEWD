@@ -171,6 +171,15 @@ a:active {
    height: 500px;
 }
 
+.map2 {
+   background: url(../images/map2.jpg) center center no-repeat;
+   background-size: cover;
+   position: relative;
+   width: 100%;
+   height: 500px;
+
+}
+
 .map-catImg {
   width: 75px;
   height: 75px;
@@ -223,35 +232,53 @@ a:active {
   color: white;
 }
 
+
 .profile_box {
   display:none;
   position:absolute;
-  width: 35%;
-  height: 50%;
+  width: 25%;
+  height: 80%;
   background-color: white;
   margin: 0% auto;
-  
+  padding-top: 1%;
+
+}
+
+.bodega {
+  width: 80%;
+  display: block;
+  position: absolute;
+  padding-left: 10%;
+  padding-top: 10%;
+}
+
+.bodega_name {
+  font-size: 20px;
+  font-family: Source Sans Pro;
+  font-weight: 400;
+  color: black;
+  padding-left: 30%;
+  text-align: center;
 
 }
 
 h3  {
   font-size: 25px;
-  font-family: Source Sans Pro;
+  font-family: Merriweather;
   font-weight: 700;
-  color: black;
-  padding-left: 5%;
-  text-align: left;
+  color: blue;
+  padding-left: 30%;
   
 }
 
 .about_p {
-  width: 70%;
-  font-size: 20px;
+  width: 80%;
+  font-size: 17px;
   font-family: Source Sans Pro;
   font-weight: 400;
   color: black;
   line-height: 20px;
-  padding: 3.25%;
+  padding-left: 10%;
 
 }
 
