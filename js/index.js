@@ -1,8 +1,6 @@
 
 
-$(".pin1Ex img").click(function(){
-    $(".box").show();
-});
+
 
 $(".pin2Ex img").click(function(){
     $(".box").show();
@@ -14,7 +12,7 @@ $('#boxclose').click(function(){
         });
 
 $(".pin4Ex img").click(function(){
-    $(".box").show();
+    $(".box2").show();
 });
 /*
 $('.pin2Ex img').click(function(){
