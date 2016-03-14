@@ -5,16 +5,37 @@ $(".pin2Ex img").click(function(){
 
 });
 			
-$(".pin4Ex img").click(function(){
+$(".pin5Ex img").click(function(){
     $(".box2").show();
 });
-					
+				
+
+$(".pin4Ex img").click(function(){
+    $(".box3").show();
+});
+
 $('.boxclose').click(function(){
-	console.log('ss');
-	$(this).parent().hide();
+    console.log('ss');
+    $(this).parent().hide();
     // $(".box").show();
 });
-		
+
+/*
+$(".pin11Ex img").click(function(){
+    $(".box").show();
+});
+
+$(".pin9Ex img").click(function(){
+    $(".box2").show();
+});
+
+$(".pin10Ex img").click(function(){
+    $(".box3").show();
+});
+
+
+	
+
 // $('#boxclose').click(function(){
 // 	console.log('clicked');
 //     // $(".box2").hide();
