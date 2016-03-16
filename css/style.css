@@ -227,7 +227,7 @@ a:active {
   position: absolute;
     top: 27%;
     left: 40%;
-
+}
 
 /* LAYOUT - about page
 /*******************************************/
@@ -254,7 +254,7 @@ a:active {
 }
 
 
-#box {
+.box {
   display:none;
   position:absolute;
   width: 25%;
